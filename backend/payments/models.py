@@ -3,8 +3,8 @@ import uuid
 from django.conf import settings
 from django.db import models
 
-from backend.orders.models import Commande
-from backend.users.models import Boutique
+from orders.models import Commande
+from users.models import Boutique
 
 
 class Paiement(models.Model):

@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from django.db import transaction
 
-from backend.catalog.models import Product
+from catalog.models import Product
 from .models import Commande, LigneCommande, reserve_stock
 
 
