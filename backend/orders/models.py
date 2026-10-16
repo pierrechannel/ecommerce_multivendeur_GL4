@@ -3,8 +3,8 @@ import uuid
 from django.conf import settings
 from django.db import models, transaction
 
-from catalog.models import Product
-from users.models import Adresse, Boutique
+from backend.catalog.models import Product
+from backend.users.models import Adresse, Boutique
 
 
 class Panier(models.Model):

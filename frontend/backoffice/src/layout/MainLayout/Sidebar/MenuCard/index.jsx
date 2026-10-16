@@ -104,10 +104,10 @@ function MenuCard() {
                     color: 'primary.800'
                   }}
                 >
-                  Plateforme MVP
+                  {/* Plateforme MVP */}
                 </Typography>
               }
-              secondary={<Typography variant="caption">Backoffice web actif</Typography>}
+              // secondary={<Typography variant="caption">Backoffice web actif</Typography>}
             />
           </ListItem>
         </List>

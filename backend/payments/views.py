@@ -2,7 +2,7 @@ from rest_framework import permissions, status, viewsets
 from rest_framework.decorators import action, api_view, permission_classes
 from rest_framework.response import Response
 
-from orders.models import Commande
+from backend.orders.models import Commande
 from .models import Paiement, PortefeuilleVendeur, Reversement, TransactionPortefeuille
 from .serializers import (
     PaymentSerializer,

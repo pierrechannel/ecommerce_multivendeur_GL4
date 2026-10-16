@@ -3,10 +3,10 @@ from decimal import Decimal
 from django.core.management.base import BaseCommand
 from django.db import transaction
 
-from catalog.models import Category, Product
-from orders.models import Commande, LigneCommande, LignePanier, Panier, reserve_stock
-from payments.models import Paiement, PortefeuilleVendeur, Reversement, TransactionPortefeuille
-from users.models import Adresse, Boutique, Utilisateur
+from backend.catalog.models import Category, Product
+from backend.orders.models import Commande, LigneCommande, LignePanier, Panier, reserve_stock
+from backend.payments.models import Paiement, PortefeuilleVendeur, Reversement, TransactionPortefeuille
+from backend.users.models import Adresse, Boutique, Utilisateur
 
 
 class Command(BaseCommand):

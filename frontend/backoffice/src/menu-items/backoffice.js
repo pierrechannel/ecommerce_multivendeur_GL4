@@ -41,7 +41,7 @@ const backoffice = {
     },
     {
       id: 'shops',
-      title: 'Vendeurs',
+      title: 'Boutiques',
       type: 'item',
       url: '/boutiques',
       icon: icons.IconBuildingStore,

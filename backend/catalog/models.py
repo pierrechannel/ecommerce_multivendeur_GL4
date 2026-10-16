@@ -1,7 +1,7 @@
 import uuid
 
 from django.db import models
-from users.models import Boutique
+from backend.users.models import Boutique
 
 
 class Category(models.Model):
